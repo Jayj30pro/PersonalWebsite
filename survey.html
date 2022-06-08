@@ -1,0 +1,107 @@
+<!--2nd freeCodeCamp Web Design Project Challenge-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coding survey</title>
+        <style>
+            #title {
+            font-size: 25px;
+            }
+            #description {
+            font-size: 25px;
+            color: #000;
+            }
+            #survey-form {
+            height: auto;
+            width: 90%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Here is an exciting survey for people learning to code</h1>
+        </header>
+
+        <div>
+            <form id="survey-form">
+                <p id="description">You will find a series of questions about the coding experience</p>
+                <input type="text" name="name" type="name" id="name" placeholder="Cris P. Bacon"required>
+                <label for="name" id="name-label"> Enter Name </label>
+                <br>
+                <input id="email" name="email" type="email" placeholder="example@example.com" required>
+                <label for="email" id="email-label">Enter a valid email </label>
+                <br>
+                <input id="number" name="number" type="number" min="0" max="30" placeholder="4">
+                <label for="number" id="number-label">Years of coding experience</label>
+                <br><br><br><br>
+                <p>Think of a challenging time</p>
+                <br>
+                <label for="dropdown" id="dropdown-label">When I get an error I...</label>
+                <input id="dropdown" type="text" list="dropdown">
+                <datalist id="dropdown">
+                    <option value="Focus on the problem to find a solution">
+                    <option value="Go back to the last working model and take smaller steps">
+                    <option value="Put on a pot of coffee and dive in head first">
+                </datalist>
+                <br><br><br><br>
+                <div id="questions" align="center">
+                    <p>Please answer the questions bellow</p>
+                    <br>
+                    <p>I think coding is fun</p>
+                    <input type="radio" name="code-fun" value="st-agree">Strongly agree
+                    <input type="radio" name="code-fun" value="agree">Agree
+                    <input type="radio" name="code-fun" value="disagree">Disagree
+                    <input type="radio" name="code-fun" value="st-disagree">Strongly Disagree
+                    <br>
+                    <p>I wish I could code all day</p>
+                    <input type="radio" name="code-day" value="st-agree">Strongly agree
+                    <input type="radio" name="code-day" value="agree">Agree
+                    <input type="radio" name="code-day" value="disagree">Disagree
+                    <input type="radio" name="code-day" value="st-disagree">Strongly Disagree
+                    <br>
+                    <p>Coding is my passion</p>
+                    <input type="radio" name="code-passion" value="st-agree">Strongly agree
+                    <input type="radio" name="code-passion" value="agree">Agree
+                    <input type="radio" name="code-passion" value="disagree">Disagree
+                    <input type="radio" name="code-passion" value="st-disagree">Strongly Disagree
+                    <br><br>
+                    <p>What front end languages do you know?</p>
+                    <input type="checkbox" name="front-know" value="HTML"> HTML
+                    <input type="checkbox" name="front-know" value="CSS"> CSS
+                    <input type="checkbox" name="front-know" value="JavaScript"> JavaScript
+                    <br><br>
+                    <p>What front end languages do you intend to learn?</p>
+                    <input type="checkbox" name="front-learn" value="HTML"> HTML
+                    <input type="checkbox" name="front-learn" value="CSS"> CSS
+                    <input type="checkbox" name="front-learn" value="JavaScript"> JavaScript
+                    <br><br>
+                    <p>What programming languages do you know?</p>
+                    <input type="checkbox" name="prog-know" value="C++"> C++
+                    <input type="checkbox" name="prog-know" value="Java"> Java
+                    <input type="checkbox" name="prog-know" value="Python"> Python
+                    <input type="checkbox" name="prog-know" value="C#"> C#
+                    <br><br>
+                    <p>What programming languages do you intend to learn?</p>
+                    <input type="checkbox" name="prog-learn" value="C++"> C++
+                    <input type="checkbox" name="prog-learn" value="Java"> Java
+                    <input type="checkbox" name="prog-learn" value="Python"> Python
+                    <input type="checkbox" name="prog-learn" value="C#"> C#
+                    <br><br>
+                    <label for="final-comments">Final thoughts</label>
+                    <textarea id="final-comments" name="final-comments" rows="5" cols="100">
+                    Please enter any additional thought about coding here
+                    </textarea>
+                    <br><br>
+                    <input type="submit" id="submit" value="Submit"/>
+                    <br><br><br><br><br><br><br><br>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p align="right"><small>A Jason Jacobs survey</small></p>
+        </footer>
+    </body>
+</html>
+
+

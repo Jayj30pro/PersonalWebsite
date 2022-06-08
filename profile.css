@@ -1,0 +1,135 @@
+#gallery {
+    display: flex;
+    height: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#gallery-item {
+    width: 77%;
+    height: 200px;
+}
+#gallery-item-wait {
+    width: 80%;
+    height: 200px;
+    filter: opacity(45%);
+    cursor: wait;
+}
+div.gallery {
+    width: 30%;
+    height: auto;
+}
+div.about-me {
+    width: 40%;
+    height: auto;
+}
+#galery-image {
+    width: 80%;
+    height: 90%;
+    border-radius: 25%;
+}
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+body {
+
+    background: linear-gradient(25deg,#2FA,#69F,#69F,#2FA,#2FA,#69F,#69F,#2FA);
+}
+#nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 70px;
+    width: 100%;
+    background-color: #C6F;
+    justify-content: flex-end;
+    z-index: 5;
+}
+#nav-item {
+    height: 80%;
+    width: auto;
+    padding: 10px;
+}
+#nav-image {
+    height: 80%;
+    width: auto;
+    padding: 10px;
+    border-radius: 50%;
+}
+nav a:link {
+    color: #000;
+}
+nav a:visited {
+    color: #333;
+}
+nav a:hover {
+    color: #FFF;
+}
+a:link {
+    color: #F00;
+}
+a:visited {
+    color: #C0C;
+}
+a:hover {
+    color: #B5B;
+    filter: opacity(50%);
+}
+.xlarge {
+    font-size: xx-large; 
+}
+@media (max-width: 1000px){
+    #nav-bar {
+    display: flex;
+    position: static;
+    top: 0%;
+    left: 0%;
+    height: 90px;
+    width: 100%;
+    background-color: #C6F;
+    justify-content: space-evenly;
+    z-index: 5;
+}
+    #gallery {
+    display: flex;
+    height: 2500px;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div.gallery {
+    width: 80%;
+    height: auto;
+}
+#gallery-item {
+    width: 50%;
+    height: auto;
+}
+#gallery-item-wait {
+    width: 50%;
+    max-height: 200px;
+    filter: opacity(45%);
+    cursor: wait;
+}
+div.about-me {
+    width: 100%;
+    height: auto;
+}
+body {
+    background: linear-gradient(25deg,#2FA,#69F,#69F,#2FA,#2FA,#69F,#69F,#2FA,#2FA,#69F,#69F,#2FA,#2FA,#69F,#69F,#2FA);
+}
+}
+
+
+
+
+
+
+
+
+
+
