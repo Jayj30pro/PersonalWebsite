@@ -52,7 +52,16 @@ body {
     height: 80%;
     width: auto;
     padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(50, 200, 250, 0.0);
+    transition: background-color 2s;
+    
 }
+
+#nav-item:hover {
+    background-color: rgba(30, 180, 250, 1.0);
+}
+
 #nav-image {
     height: 80%;
     width: auto;
